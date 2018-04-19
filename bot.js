@@ -30,7 +30,7 @@ bot.on('message', message => {
   }
   
   if (message.content.startsWith(PREFİX + 'downloadgame')) {
-    message.channel.sendMessage(':ballot_box_with_check:' + 'https://drive.google.com/uc?id=13Vb9gXBUF7fE3F5nZJIsY5ustidI6MsA&export=download' + ':ballot_box_with_check:');
+    message.channel.sendMessage(':ballot_box_with_check:' + 'https://drive.google.com/uc?id=13Vb9gXBUF7fE3F5nZJIsY5ustidI6MsA&export=download');
   }
  
   if (message.content.startsWith(PREFİX + 'f13help')) {
