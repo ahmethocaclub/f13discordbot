@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 bot.on('ready', () => {
   console.log(`Logged in as ${bot.user.tag}!`);
-  bot.user.setGame("&help | Hii!!");
+  bot.user.setGame("&f13help");
 });
 
 
@@ -34,7 +34,7 @@ bot.on('message', message => {
   }
  
   if (message.content.startsWith(PREFİX + 'f13help')) {
-    message.channel.sendMessage(' Komutlar: &montaj  &clearchat, &weather?, &gifler');
+    message.channel.sendMessage('&updates, &downloadgame, &jasonparts');
   }
  
   
